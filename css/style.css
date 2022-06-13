@@ -26,6 +26,7 @@
 body {
   background-color: rgb(20, 11, 0);
   border: rgb(134, 96, 0) solid 1px;
+  position: absolute;
 }
 
 h1 {
@@ -37,26 +38,23 @@ h1 {
 }
 
 h3 {
-  font-size: 73px;
+  font-size: 145px;
   font-family: Headson;
   font-weight: normal;
-  left: 55px;
+  left: 85px;
   position: absolute;
   z-index: 3;
   color: #fbfbfb;
   text-shadow: 0.01em 0.04em 0.02em #322610;
-  margin: 0px;
+  /* margin: 0px; */
   text-align: center;
-  bottom: 650px;
+  top: 0px;
 }
 
 .raio {
   position: relative;
-  width: 108%;
-  left: -31px;
-  margin-right: auto;
+  width: 100%;
   margin-top: 20px;
-  margin-left: auto;
   top: 0px;
   opacity: 100%;
 }
@@ -68,20 +66,25 @@ div {
 
 .menu {
   position: sticky;
+  position: -webkit-sticky;
   z-index: 4;
+  display: block;
+  margin-top: 0px;
+  height: 121px;
+  top: 1px;
 }
 
 .bordamenu {
-  filter: drop-shadow(1px 3px 0 black);
-  top: 60px;
-  position: relative;
   z-index: 1;
+  top: -7px;
+  position: relative;
 }
 
 .bordamenu2 {
-  z-index: 1;
-  top: -23px;
+  filter: drop-shadow(1px 3px 0 black);
+  top: 65px;
   position: relative;
+  z-index: 1;
 }
 
 .boasvindas {
@@ -93,21 +96,21 @@ div {
   position: absolute;
   filter: drop-shadow(2px 10px 7px black);
   display: inline-block;
-  left: 110px;
+  left: 220px;
   width: 55%;
-  top: 190px;
+  top: 330px;
 }
 
 .luizgouveia {
-  font-size: 120px;
+  font-size: 227px;
   text-shadow: 0.01em 0.01em 0em #ffffff;
   color: rgb(130 58 0);
   font-family: HighSpirited;
   font-weight: lighter;
   word-spacing: -15pt;
-  position: relative;
-  right: 6px;
-  top: 387px;
+  position: absolute;
+  right: 6%;
+  top: 14%;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -149,7 +152,6 @@ div {
 }
 
 .welcome {
-  font-size: 39px;
   text-shadow: 0.05em 0.04em 0.06em black;
   z-index: 2;
   position: absolute;
@@ -157,27 +159,27 @@ div {
   border: none;
   font-family: HelloJucky;
   font-weight: normal;
-  top: 500px;
+  top: 17%;
+  left: 3%;
 }
 
 w {
-  font-size: 95px;
+  font-size: 165px;
 }
 
 e {
-  font-size: 88px;
+  font-size: 150px;
 }
 
 .bordao {
   word-spacing: -1px;
   text-align: center;
-  font-size: 40px;
+  font-size: 101px;
   width: 100%;
   line-height: 0.95;
   filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
   position: relative;
   color: white;
-  top: 25px;
 }
 
 .bordao1 {
@@ -211,10 +213,9 @@ e {
 .fundo {
   background-image: url(../img/img-backgrounds/gold3.jpg);
   z-index: -2;
-  background-size: contain;
   position: relative;
-  padding: 0px;
   top: -170px;
+  height: 2059px;
 }
 
 .margintexto {
@@ -228,12 +229,9 @@ e {
 .icons {
   position: relative;
   display: inline-block;
-  width: 8.5%;
-  top: -22px;
-  padding-bottom: 0;
-  margin-bottom: -15px;
-  padding-left: 64px;
-  left: -4px;
+  width: 7.5%;
+  top: -36px;
+  padding-left: 129px;
 }
 
 .whatsapp {
@@ -255,7 +253,7 @@ e {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {
   body {
     background-color: yellow;
@@ -275,14 +273,15 @@ e {
     text-align: center;
     bottom: 650px;
   }
-}
+} */
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up)
 @media only screen and (min-width: 768px) {
   body {
     background-color: green;
   }
 }
+*/
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
