@@ -1,0 +1,298 @@
+@font-face {
+  font-family: "HighSpirited";
+  src: url(../fonts/HighSpirited.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Dorado_Headline";
+  src: url(../fonts/DoradoHeadline.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Headson";
+  src: url(../fonts/Headson.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Leoch_Nisa";
+  src: url(../fonts/LeochNisa.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelloJucky";
+  src: url(../fonts/HELLOJUCKY.otf) format("opentype");
+}
+
+body {
+  background-color: rgb(20, 11, 0);
+  border: rgb(134, 96, 0) solid 1px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Dorado_Headline;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 73px;
+  font-family: Headson;
+  font-weight: normal;
+  left: 55px;
+  position: absolute;
+  z-index: 3;
+  color: #fbfbfb;
+  text-shadow: 0.01em 0.04em 0.02em #322610;
+  margin: 0px;
+  text-align: center;
+  bottom: 650px;
+}
+
+.raio {
+  position: relative;
+  width: 108%;
+  left: -31px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  top: 0px;
+  opacity: 100%;
+}
+
+div {
+  margin: 0px auto;
+  background-color: rgb(0, 3, 19);
+}
+
+.menu {
+  position: sticky;
+  z-index: 4;
+}
+
+.bordamenu {
+  filter: drop-shadow(1px 3px 0 black);
+  top: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.bordamenu2 {
+  z-index: 1;
+  top: -23px;
+  position: relative;
+}
+
+.boasvindas {
+  background: none;
+  margin: auto;
+}
+
+.facepic {
+  position: absolute;
+  filter: drop-shadow(2px 10px 7px black);
+  display: inline-block;
+  left: 110px;
+  width: 55%;
+  top: 190px;
+}
+
+.luizgouveia {
+  font-size: 120px;
+  text-shadow: 0.01em 0.01em 0em #ffffff;
+  color: rgb(130 58 0);
+  font-family: HighSpirited;
+  font-weight: lighter;
+  word-spacing: -15pt;
+  position: relative;
+  right: 6px;
+  top: 387px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  z-index: 2;
+}
+
+.topicos {
+  font-family: Headson;
+  text-align: center;
+  text-shadow: 0.01em 0.01em 0.05em rgb(255 94 0);
+  position: relative;
+  z-index: 2;
+  padding: 26px;
+  margin: -1px auto;
+  border: none;
+  filter: drop-shadow(1em 0.01em 2em black);
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  top: 100px;
+}
+
+.divisaotopicos {
+  padding: 37px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 40px;
+  background-color: rgb(0 3 19 / 80%);
+  margin: 15px;
+  margin-right: 0;
+  margin-left: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.texto {
+  color: white;
+  font-family: "Lucida Sans", sans-serif;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.welcome {
+  font-size: 39px;
+  text-shadow: 0.05em 0.04em 0.06em black;
+  z-index: 2;
+  position: absolute;
+  background: none;
+  border: none;
+  font-family: HelloJucky;
+  font-weight: normal;
+  top: 500px;
+}
+
+w {
+  font-size: 95px;
+}
+
+e {
+  font-size: 88px;
+}
+
+.bordao {
+  word-spacing: -1px;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  line-height: 0.95;
+  filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
+  position: relative;
+  color: white;
+  top: 25px;
+}
+
+.bordao1 {
+  left: -80px;
+  top: -105px;
+}
+
+.bordao2 {
+}
+
+.bordao3 {
+  font-size: 31px;
+  top: 10px;
+}
+
+.divisaotexto {
+  background: center url(../img/background2-3.jpeg);
+  position: relative;
+  width: 98%;
+  top: 82px;
+}
+
+.contato {
+  background: center url(../img/background2-4.jpeg);
+}
+
+.experience {
+  background: center url(../img/background2-5.jpeg);
+}
+
+.fundo {
+  background-image: url(../img/img-backgrounds/gold3.jpg);
+  z-index: -2;
+  background-size: contain;
+  position: relative;
+  padding: 0px;
+  top: -170px;
+}
+
+.margintexto {
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  line-height: 2;
+}
+
+.icons {
+  position: relative;
+  display: inline-block;
+  width: 8.5%;
+  top: -22px;
+  padding-bottom: 0;
+  margin-bottom: -15px;
+  padding-left: 64px;
+  left: -4px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  z-index: 5;
+  width: 10%;
+}
+
+/*---------MEDIA QUERIES----------*/
+/*---------MEDIA QUERIES----------*/
+/*---------MEDIA QUERIES----------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+
+  h3 {
+    font-size: 73px;
+    font-family: Headson;
+    font-weight: normal;
+    left: 85px;
+    position: absolute;
+    z-index: 3;
+    color: #fbfbfb;
+    text-shadow: 0.01em 0.04em 0.02em #322610;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    bottom: 650px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: black;
+  }
+}
