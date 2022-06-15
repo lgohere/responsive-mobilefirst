@@ -129,12 +129,10 @@ div {
   text-shadow: 0.01em 0.01em 0.05em rgb(255 94 0);
   position: relative;
   z-index: 2;
-  padding: 26px;
+  padding: 60px;
   margin: -1px auto;
   border: none;
   filter: drop-shadow(1em 0.01em 2em black);
-  /* margin-top: 0px; */
-  /* margin-bottom: 0px; */
   top: -642px;
 }
 
@@ -190,7 +188,7 @@ e {
 
 .bordao1 {
   left: -12%;
-  top: 9.7%;
+  top: 10.2%;
   position: absolute;
   margin-right: 0px;
   padding-right: 0px;
@@ -199,7 +197,7 @@ e {
 }
 
 .bordao2 {
-  top: 14.8%;
+  top: 14.7%;
   left: 46px;
   position: absolute;
   width: 89%;
@@ -210,7 +208,9 @@ e {
   right: 105px;
   position: absolute;
   width: 83%;
-  top: 17.8%;
+  top: 17.5%;
+  color: #de996d;
+  font-weight: 100;
 }
 
 .divisaotexto {
