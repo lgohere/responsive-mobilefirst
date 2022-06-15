@@ -45,10 +45,14 @@ h3 {
   position: absolute;
   z-index: 3;
   color: #fbfbfb;
-  text-shadow: 0.01em 0.04em 0.02em #322610;
+  text-shadow: 0.01em 0.04em 0.02em hsl(39, 52%, 13%);
   /* margin: 0px; */
   text-align: center;
   top: 0px;
+}
+
+p {
+  font-size: 36px;
 }
 
 .raio {
@@ -186,18 +190,18 @@ e {
 }
 
 .bordao1 {
-  left: -131px;
-  top: -319px;
+  left: -115px;
+  top: -465px;
 }
 
 .bordao2 {
-  top: -150px;
+  top: -270px;
   left: -14px;
 }
 
 .bordao3 {
   font-size: 55px;
-  top: -170px;
+  top: -275px;
   width: 83%;
   right: -39px;
 }
@@ -228,14 +232,14 @@ e {
 
 .margintexto {
   position: relative;
-  font-size: 28px;
+  font-size: 38px;
   text-align: center;
   line-height: 2;
   margin: 100px 0px 100px;
   margin-left: 30px;
   margin-right: 30px;
   text-align: justify;
-  filter: drop-shadow(1.5px 4px 0em brown);
+  text-shadow: 1.5px 4px 0em #603912;
 }
 
 .icons {
