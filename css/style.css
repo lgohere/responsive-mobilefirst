@@ -33,7 +33,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 55px;
   font-family: Dorado_Headline;
   color: goldenrod;
   font-weight: bold;
@@ -74,6 +74,7 @@ div {
   margin-top: 0px;
   height: 121px;
   top: 1px;
+  filter: drop-shadow(1px 9px 15px black);
 }
 
 .bordamenu {
@@ -111,7 +112,7 @@ div {
   word-spacing: -15pt;
   position: absolute;
   right: 6%;
-  top: 17.7%;
+  top: 805px;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -130,7 +131,7 @@ div {
   filter: drop-shadow(1em 0.01em 2em black);
   /* margin-top: 0px; */
   /* margin-bottom: 0px; */
-  top: 100px;
+  top: -642px;
 }
 
 .divisaotopicos {
@@ -186,25 +187,26 @@ e {
 
 .bordao1 {
   left: -131px;
-  top: -88px;
+  top: -350px;
 }
 
 .bordao2 {
-  top: 112px;
+  top: -150px;
   left: -14px;
 }
 
 .bordao3 {
   font-size: 55px;
-  top: 80px;
-  width: 89%;
+  top: -170px;
+  width: 83%;
+  right: -39px;
 }
 
 .divisaotexto {
   background: center url(../img/background2-3.jpeg);
   position: relative;
-  width: 98%;
-  top: 82px;
+  width: 100%;
+  top: -670px;
 }
 
 .contato {
@@ -226,10 +228,13 @@ e {
 
 .margintexto {
   position: relative;
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
-  width: 100%;
   line-height: 2;
+  margin: 100px 0px 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
 }
 
 .icons {
