@@ -160,7 +160,6 @@ div {
 .welcome {
   text-shadow: 0.05em 0.04em 0.06em black;
   z-index: 2;
-  position: absolute;
   background: none;
   border: none;
   font-family: HelloJucky;
@@ -190,20 +189,28 @@ e {
 }
 
 .bordao1 {
-  left: -115px;
-  top: -465px;
+  left: -12%;
+  top: 9.7%;
+  position: absolute;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .bordao2 {
-  top: -270px;
-  left: -14px;
+  top: 14.8%;
+  left: 46px;
+  position: absolute;
+  width: 89%;
 }
 
 .bordao3 {
   font-size: 55px;
-  top: -275px;
+  right: 105px;
+  position: absolute;
   width: 83%;
-  right: -39px;
+  top: 17.8%;
 }
 
 .divisaotexto {
@@ -239,7 +246,7 @@ e {
   margin-left: 30px;
   margin-right: 30px;
   text-align: justify;
-  text-shadow: 1.5px 4px 0em #603912;
+  text-shadow: 1.5px 3px 0.1em #603912;
 }
 
 .icons {
@@ -255,7 +262,7 @@ e {
   right: 3%;
   bottom: 3%;
   z-index: 5;
-  width: 10%;
+  width: 9.1%;
 }
 
 /*---------MEDIA QUERIES----------*/
@@ -263,6 +270,7 @@ e {
 /*---------MEDIA QUERIES----------*/
 
 /* Extra small devices (phones, 600px and down) 
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: white;
