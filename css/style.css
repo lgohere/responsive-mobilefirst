@@ -262,7 +262,7 @@ e {
 /*---------MEDIA QUERIES----------*/
 /*---------MEDIA QUERIES----------*/
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
   body {
     background-color: white;
@@ -299,13 +299,13 @@ e {
 }
 */
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
   body {
     background-color: blue;
   }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {
   body {
     background-color: black;
