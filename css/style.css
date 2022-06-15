@@ -24,10 +24,8 @@
 }
 
 body {
-  border: rgb(11 3 29) solid 2px;
   position: absolute;
-  background-image: url(../img/img-backgrounds/gold3.jpg);
-  background-size: auto;
+  background-image: url(../img/img-backgrounds/gold1.jpg);
   background-size: 100%;
 }
 
@@ -54,11 +52,13 @@ h3 {
 }
 
 .raio {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 135%;
   margin-top: 20px;
-  top: 0px;
-  opacity: 100%;
+  top: -484px;
+  opacity: 90%;
+  margin: -272px;
+  left: 108px;
 }
 
 div {
@@ -187,7 +187,7 @@ e {
 
 .bordao1 {
   left: -131px;
-  top: -350px;
+  top: -319px;
 }
 
 .bordao2 {
@@ -235,6 +235,7 @@ e {
   margin-left: 30px;
   margin-right: 30px;
   text-align: justify;
+  filter: drop-shadow(1.5px 4px 0em brown);
 }
 
 .icons {
