@@ -259,9 +259,9 @@ body {
     position: relative;
     width: 104.4%;
     top: -1648px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: -8px;
-    padding-bottom: 10px;
     background-size: 119%;
   }
 
@@ -306,7 +306,211 @@ body {
   }
 
   body {
-    background: blue;
+    background-image: url(../img/img-backgrounds/gold.jpg);
+    background-size: 102%;
+  }
+
+  .menu {
+    position: absolute;
+    position: -webkit-sticky;
+    z-index: 4;
+    display: block;
+    margin-top: 0px;
+    height: 55px;
+    top: -9px;
+    filter: drop-shadow(1px 9px 15px black);
+    width: 104.5%;
+    left: -8px;
+  }
+
+  .bordamenu {
+    z-index: 1;
+    top: 0px;
+    position: absolute;
+  }
+
+  .bordamenu2 {
+    filter: drop-shadow(1px 3px 0 black);
+    top: 49px;
+    position: absolute;
+    z-index: 1;
+    height: 9%;
+    width: 100.2%;
+    /* left: -1px;*/
+  }
+
+  .icons {
+    position: relative;
+    width: 3.6%;
+    top: 63px;
+    padding-left: 0px;
+    float: right;
+  }
+
+  .facepic {
+    position: absolute;
+    filter: drop-shadow(2px 10px 7px black);
+    display: inline-block;
+    left: 402px;
+    width: 35%;
+    top: 125px;
+    float: right;
+    /* right: -11%;*/
+  }
+
+  h3 {
+    font-size: 91px;
+    left: 45px;
+    text-shadow: 0.01em 0.03em 0em hsl(231deg 78% 5%);
+    float: left;
+    display: inline-block;
+  }
+
+  w {
+    font-size: 110px;
+  }
+
+  e {
+    font-size: 95px;
+  }
+
+  .everyone {
+    margin-left: 9px;
+    position: relative;
+    top: 48px;
+    left: -100px;
+    font-size: 80px;
+  }
+
+  .luizgouveia {
+    font-size: 93px;
+    text-shadow: 0.01em 0.013em 0em #ffffff;
+    color: rgb(85 33 0);
+    font-family: HighSpirited;
+    word-spacing: -15pt;
+    position: relative;
+    right: -25%;
+    top: -46px;
+    /* text-align: center; */
+    /* padding: 0px; */
+    /* margin: 0px; */
+    z-index: 3;
+    /* width: 4%; */
+    float: right;
+  }
+
+  .boasvindas {
+    margin: 0px auto;
+    margin-bottom: -70px;
+    text-align: center;
+    height: 10%;
+    background: none;
+    position: relative;
+    top: 46px;
+  }
+
+  .welcome {
+    text-shadow: 0.05em 0.04em 0.06em black;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-family: HelloJucky;
+    position: absolute;
+    display: flex;
+    top: 335px;
+    width: 100%;
+  }
+
+  .bordao1 {
+    left: 64%;
+    top: -15px;
+    position: absolute;
+  }
+
+  .bordao2 {
+    top: -20.8%;
+    left: 13px;
+    width: 51%;
+    font-size: 28px;
+  }
+
+  .bordao3 {
+    font-size: 26px;
+    right: 51%;
+    width: 45%;
+    top: 8%;
+    color: #de996d;
+  }
+
+  .topicos {
+    text-shadow: 0.12em 0em 0em rgb(255 94 0);
+    padding: 15px;
+    border: none;
+    top: -1178px;
+    width: 100%;
+    left: -7px;
+  }
+
+  .divisaotopicos {
+    border-radius: 40px;
+    background-color: rgb(0 3 19 / 80%);
+    margin: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    width: 83%;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    /* left: 65px;*/
+  }
+
+  .whatsapp {
+    width: 8%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .divisaotexto {
+    width: 103.4%;
+    top: -1282px;
+    padding-top: 18%;
+    padding-bottom: 15%;
+    margin-bottom: -172px;
+  }
+
+  .raio {
+    position: fixed;
+    width: 80%;
+    top: -181px;
+    left: 35px;
+    transform: rotate(-14deg);
+  }
+
+  .margintexto {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 130px0px;
+    text-shadow: 1px 0.8px 0em #a15100;
+  }
+}
+
+/*Medium devices (760px)*/
+@media (min-width: 760px) {
+  .facepic {
+    left: 437px;
+  }
+}
+
+/*Medium devices (Ipad Air 820px)*/
+@media (min-width: 820px) {
+  .facepic {
+    left: 469px;
   }
 }
 
