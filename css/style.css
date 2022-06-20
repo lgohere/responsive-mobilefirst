@@ -299,6 +299,51 @@ body {
   }
 }
 
+@media (min-width: 540px) {
+  .facepic {
+    left: 154px;
+    width: 40%;
+    top: 136px;
+  }
+
+  .icons {
+    width: 6%;
+    top: -26px;
+    left: 45px;
+  }
+
+  .topicos {
+    top: -1600px;
+  }
+
+  .divisaotexto {
+    top: -1600px;
+  }
+
+  .bordao1 {
+    top: -5px;
+    left: 37%;
+  }
+
+  .luizgouveia {
+    top: -50px;
+  }
+
+  .bordao2 {
+    font-size: 34px;
+    top: 125px;
+    width: 80%;
+    left: 10%;
+  }
+
+  .bordao3 {
+    width: 80%;
+    left: 10%;
+    font-size: 27px;
+    top: 227px;
+  }
+}
+
 /*Medium devices (iphones and samsung)*/
 @media (min-width: 720px) {
   .luizgouveia {
@@ -593,10 +638,249 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  .facepic {
+    left: 607px;
+    width: 31%;
+    top: 139px;
+  }
+
+  .menu {
+    width: 102.1%;
+  }
+
+  h3 {
+    left: 125px;
+  }
+
+  .everyone {
+    left: -20px;
+  }
+
+  .bordao1 {
+    top: -14px;
+    left: 67%;
+  }
+
+  .bordao2 {
+    top: -34.8%;
+    font-size: 38px;
+    left: 25px;
+  }
+
+  .bordao3 {
+    font-size: 32px;
+  }
+
+  .luizgouveia {
+    top: -47px;
+    right: -24.1%;
+    font-size: 108px;
+  }
+
+  .divisaotexto {
+    width: 102.1%;
+  }
+
+  .whatsapp {
+    width: 4.5%;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-  body {
-    background-color: black;
+  .menu {
+    width: 101.5%;
+  }
+
+  .bordamenu {
+    top: -1;
+  }
+
+  .fundo {
+    width: 88%;
+    top: -307px;
+    left: -45px;
+  }
+
+  h3 {
+    font-size: 127px;
+    left: 93px;
+    top: -57px;
+  }
+
+  w {
+    font-size: 145px;
+  }
+
+  e {
+    font-size: 113px;
+  }
+
+  .everyone {
+    font-size: 110px;
+    top: 89px;
+    left: -93px;
+  }
+
+  .facepic {
+    left: 705px;
+    top: 150px;
+    width: 32%;
+  }
+
+  .luizgouveia {
+    top: 12px;
+    font-size: 139px;
+    right: -24%;
+  }
+
+  .bordao1 {
+    font-size: 43px;
+    top: 33px;
+    right: 338px;
+  }
+
+  .bordao2 {
+    top: -3%;
+    font-size: 48px;
+    left: 3%;
+  }
+
+  .bordao3 {
+    font-size: 39px;
+    right: 49%;
+    top: 33%;
+    width: 47%;
+  }
+
+  .topicos {
+    top: -935px;
+  }
+
+  .divisaotexto {
+    top: -1065px;
+    width: 101.3%;
+  }
+}
+
+@media (min-width: 1240px) {
+  h3 {
+    left: 126px;
+  }
+
+  .everyone {
+    left: -60px;
+  }
+
+  .bordao1 {
+    font-size: 43px;
+    top: 45px;
+    right: 338px;
+  }
+
+  .bordao2 {
+    top: -3%;
+    font-size: 48px;
+    left: 5%;
+  }
+
+  .bordao3 {
+    font-size: 39px;
+    right: 47%;
+    top: 33%;
+    width: 47%;
+  }
+
+  .luizgouveia {
+    top: -16px;
+    font-size: 139px;
+    right: -25%;
+  }
+
+  .facepic {
+    left: 730px;
+    width: 32%;
+  }
+}
+
+@media (min-width: 1320px) {
+  .facepic {
+    left: 800px;
+    width: 28%;
+    top: 170px;
+  }
+
+  .bordao1 {
+    right: 379px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .facepic {
+    left: 846px;
+    top: 146px;
+  }
+
+  .menu {
+    width: 101%;
+  }
+
+  .bordao1 {
+    right: 410px;
+  }
+
+  .icons {
+    width: 2.5%;
+  }
+
+  .whatsapp {
+    width: 4%;
+  }
+
+  .divisaotexto {
+    width: 101.1%;
+  }
+
+  .topicos {
+    filter: drop-shadow(4px -26px 60px black);
+    width: 97.2%;
+  }
+}
+
+@media (min-width: 1499px) {
+  .facepic {
+    left: 921px;
+    top: 146px;
+  }
+
+  h3 {
+    left: 182px;
+  }
+
+  .everyone {
+    left: 8px;
+  }
+
+  .bordao1 {
+    top: 73px;
+  }
+
+  .bordao2 {
+    top: 0%;
+    font-size: 53px;
+    left: 3%;
+    width: 50%;
+  }
+
+  .bordao3 {
+    font-size: 43px;
+    top: 38%;
+    width: 41%;
+  }
+
+  .luizgouveia {
+    top: 14px;
   }
 }
