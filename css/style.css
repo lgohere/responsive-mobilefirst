@@ -557,6 +557,10 @@ body {
   .facepic {
     left: 469px;
   }
+
+  .icons {
+    left: -40px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
