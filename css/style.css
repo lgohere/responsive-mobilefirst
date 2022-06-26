@@ -1,9 +1,4 @@
-html {
-  height: 100%;
-}
-body {
-  min-height: 100%;
-}
+/*-----FONTES-----*/
 
 @font-face {
   font-family: "HighSpirited";
@@ -21,8 +16,8 @@ body {
 }
 
 @font-face {
-  font-family: "Leoch_Nisa";
-  src: url(../fonts/LeochNisa.ttf) format("truetype");
+  font-family: "Tenby_Five";
+  src: url(../fonts/tenby-five.otf) format("opentype");
 }
 
 @font-face {
@@ -30,108 +25,104 @@ body {
   src: url(../fonts/HELLOJUCKY.otf) format("opentype");
 }
 
-/*Small devices (iphones and samsung)*/
-@media (min-width: 320px) {
-  body {
-    position: absolute;
-    background-image: url(../img/img-backgrounds/gold3.jpg);
-    background-size: 137%;
-  }
+/*-----CONTAINERS-E-CORESDEFUNDO-----*/
+body {
+  position: absolute;
+  background-image: url(../img/img-backgrounds/gold3.jpg);
+  background-size: cover;
+}
 
-  /*-----ICONES-----*/
+.container1 {
+  text-align: center;
+  padding-bottom: 20px;
 
-  .whatsapp {
-    position: fixed;
-    right: 3%;
-    bottom: 3%;
-    z-index: 5;
-    width: 9.1%;
-  }
+}
 
-  /*-----FUNDO-----*/
+.container2 {
+  text-align: center;
+  padding-bottom: 20px;
+  background-image: url(../img/background2-3.jpeg);
+  filter: drop-shadow(1px -8px 5px black);
+}
 
-  .fundo {
-    height: 2059px;
-    background: none;
-    position: relative;
-    z-index: -1;
-    margin-bottom: -282px;
-  }
+.container3 {
+  height: fit-content;
+}
 
-  .raio {
-    position: fixed;
-    width: 179%;
-    top: -27%;
-    opacity: 90%;
-    left: -34%;
-    transform: rotate(170deg);
-  }
+.container4 {
+}
 
-  div {
-    margin: 0px auto;
-    background-color: rgb(0, 3, 19);
-  }
+.box {
+  min-height: 600px;
+  height: fit-content;
+}
 
-  /*----- MENU-----*/
+.cor1 {
+  /*background-color: #00021d85;*/
+}
+
+.cor2 {
+  background-color: rgb(0, 0, 0);
+}
+
+.cor3 {
+  background-color: rgb(0, 0, 0);
+}
+
+
+/*----------------*/
+
+/*----- MENU-----*/
 
   .menu {
     position: sticky;
     z-index: 4;
-    height: 54px;
+    height: fit-content;
     top: 0px;
-    filter: drop-shadow(1px 9px 15px black);
-    margin-top: -8px;
-    margin-left: -8px;
-    width: 104.4%;
+    filter: drop-shadow(0px -4px 10px black);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #00021d;
+    text-align: center;
+    border-top: 0.1vh solid #6D4108;
+    border-bottom: 0.1vh solid #6d410a;
+    max-height: 5vh;
+    background-image: url(../img/background2-3.jpeg);
+    background-size: cover;
   }
 
-  .bordamenu {
-    z-index: 1;
-    position: relative;
-    top: -9px;
-    position: relative;
-    height: 7px;
-  }
-
-  .bordamenu2 {
-    filter: drop-shadow(1px 3px 0 black);
-    top: 21px;
-    position: relative;
-    z-index: 1;
-    height: 7px;
-    margin-left: -1px;
+  .caixa {
+    background-color: #ffffff24;
     width: 100%;
+    margin: 0 auto;
   }
 
   .icons {
-    padding-left: 24px;
-    position: relative;
-    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
     width: 7%;
-    top: -24px;
-    margin-left: 37px;
-    left: -24px;
+    padding: 0 29px;
+    position: relative;
+    top: 3px;
   }
+
+/*------------------------------*/
 
   /*----- WELCOME-----*/
 
   .boasvindas {
-    margin: 0px auto;
-    margin-bottom: -70px;
     text-align: center;
-    height: 10%;
-    background: none;
+    position: relative;
   }
 
-  h3 {
+  h1 {
     font-size: 56px;
     font-family: Headson;
     font-weight: normal;
     position: relative;
     z-index: 3;
     color: #fbfbfb;
-    text-shadow: 0.01em 0.04em 0.02em hsl(39deg 52% 13%);
-    top: -57px;
+    text-shadow: 0.04em 0.06em 0.04em hsl(231deg 100% 4%);
     margin-right: auto;
     margin-left: auto;
     display: inline-block;
@@ -150,162 +141,352 @@ body {
     margin-left: 9px;
   }
 
-  .welcome {
-    text-shadow: 0.05em 0.04em 0.06em black;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-family: HelloJucky;
-    position: relative;
-    display: flex;
-    top: 116px;
-  }
-
-  .bordao {
-    word-spacing: -1px;
-    text-align: center;
+  h2 {
     font-size: 30px;
-    line-height: 0.95;
+    line-height: 1;
     filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
     position: relative;
     color: white;
-    filter: drop-shadow(4px 0.1em 0.1em black);
+    filter: drop-shadow(0px 0px 1px #33220e);
+    text-shadow: 0.05em 0.04em 0.06em #130a00;
+    z-index: 2;
+    background: none;
+    font-family: HelloJucky;
+    position: relative;
+    padding: 15px 15px;
+    top: -4vh;
+    font-weight: 100;
   }
 
   .bordao1 {
-    word-spacing: -1px;
-    text-align: center;
     font-size: 27px;
-    line-height: 0.95;
-    filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
-    position: absolute;
-    color: white;
-    filter: drop-shadow(4px 0.1em 0.1em black);
-    top: -45px;
-    left: 35%;
+    position: relative;
   }
 
   .luizgouveia {
-    font-size: 92px;
-    text-shadow: 0.01em 0.013em 0em #ffffff;
-    color: rgb(196 84 0);
+    font-size: 99px;
+    text-shadow: 1px 2px 0px #000000;
+    color: rgb(255 215 157);
     font-family: HighSpirited;
     word-spacing: -15pt;
     position: relative;
     right: 2px;
-    top: -103px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
-    z-index: 2;
+    top: -6vh;
+    font-weight: 100;
+    filter: drop-shadow(2px 5px 3px black);
   }
 
   .bordao2 {
-    top: 92px;
-    position: absolute;
+    position: relative;
+    max-width: 70vh;
+    margin: 0 auto;
   }
 
   .bordao3 {
-    font-size: 25px;
-    position: absolute;
-    top: 185px;
+    position: relative;
     color: #de996d;
     font-weight: 100;
+    max-width: 70vh;
+    margin: 0 auto;
   }
 
-  /*----- FOTOPERFIL-----*/
+/*------------------------------*/
+
+
+/*-----Whatsapp-----*/
+
+  .whatsapp {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 5;
+    width: 9.1%;
+  }
+
+/*----- FOTOPERFIL-----*/
 
   .facepic {
-    position: absolute;
-    filter: drop-shadow(2px 10px 7px black);
-    display: inline-block;
-    left: 100px;
-    width: 48%;
-    top: 130px;
+    position: relative;
+    filter: drop-shadow(0px 0px 11px black);
+  }
+  
+ /*-----------------------*/
+
+
+  /*-----FUNDO-----*/
+
+  .raio {
+    position: fixed;
+    width: 160%;
+    top: -12vh;
+    left: -12vh;
+    transform: rotate(170deg);
     z-index: -1;
+    max-width: 115vh;
+    max-height: 185vh;
   }
 
-  /*-----TOPICOS-----*/
-
-  .topicos {
-    font-family: Headson;
-    text-align: center;
-    text-shadow: 0.01em 0.01em 0.05em rgb(255 94 0);
+  .cave {
     position: relative;
+    filter: drop-shadow(0px 25px 6px black);
     z-index: 2;
-    margin-left: -8;
-    filter: drop-shadow(0.3em -0.4em -0.6em black);
-    top: -1647px;
-    border: 0.5px #ffd876de solid;
-    border-left: none;
-    border-right: none;
-    margin-left: -8px;
-    width: 104.4%;
+    background-color: black;
+    top: 1vh;
   }
 
-  .divisaotopicos {
-    padding: 34px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    background-color: rgb(0 3 19 / 80%);
-    margin: 8px;
-    position: relative;
-    margin-bottom: 15px;
-  }
+  /*-----TOPICOS E TEXTO-----*/
 
-  .divisaotexto {
-    background: center url(../img/background2-3.jpeg);
-    position: relative;
-    width: 104.4%;
-    top: -1648px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: -8px;
-    background-size: 119%;
-  }
-
-  /*-----TEXTOTOPICO-E-PARAGRAFOS(p)-----*/
-
-  h1 {
+  .topico {
     text-align: center;
-    font-size: 23px;
-    font-family: Dorado_Headline;
-    color: goldenrod;
-    font-weight: bold;
+    padding: 10vh;
+    /* background-color: #00010a; */
+    filter: drop-shadow(0px 1px 5px black);  
   }
-
-  .texto {
-    color: white;
-    position: relative;
-    font-size: 17px;
-    line-height: 2;
-    text-align: justify;
-    text-shadow: 1.5px 3px 0.1em #121960;
-    font-family: system-ui;
-    letter-spacing: 0.9px;
-  }
-
+  
   p {
     font-size: 36px;
   }
 
-  .contato {
-    background: center url(../img/background2-4.jpeg);
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Dorado_Headline;
+    color: goldenrod;
+    font-weight: bold;
+    text-shadow: 1px 2px #0021ff;
   }
 
-  .experience {
-    background: center url(../img/background2-5.jpeg);
+  .texto {
+    color: #f6ff6b;
+    /* position: relative; */
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+    text-shadow: 2.2px 2px 1px #001ff5;
+    font-family: Tenby_five;
+    letter-spacing: 0.9px;
+    border-radius: 40px;
+    margin: 3px 8px 4px;
+    padding: 20px 3px;
+  }
+
+  .divisaotexto {
+    border: 0.01px solid #b18934;
+    padding: 5vh 2vh;
+    border-radius: 40px;
+    background-color: #00010aed;
+    position: relative;
+    filter: drop-shadow(1px 1px 7px #4a2d14);
+  }
+
+  .fundotexto {
+    padding: 2vh 1vh 2vh;
+  }
+
+
+@media (min-width: 540px) {
+  .icons {
+    max-width: 5%;
+  }  
+}
+
+@media (min-width: 720px) {
+  .icons {
+    max-width: 3%;
+    top: 2px;
+  }  
+
+  .facepic {
+    width: 27vh;
+  }
+
+  .luizgouveia {
+    font-size: 109px;
+  }
+
+  .bordao1 {
+    font-size: 32px;
   }
 }
 
-@media (min-width: 540px) {
-  .facepic {
-    left: 154px;
-    width: 40%;
-    top: 136px;
+@media (min-width: 820px) {
+
+body {
+   background-image: url(../img/img-backgrounds/gold.jpg);;
+}
+
+.container1 {
+  min-height: 60vh;
+  height: fit-content;
+}
+
+  .raio {
+    width: 125%;
+    top: -20vh;
+    left: -15vh;
   }
 
+  .icons {
+    float: right;
+    max-width: 3%;
+    top: 50px;
+    position: relative;
+  }  
+
+  .menu {
+    height: 3vh;
+  }
+
+  .boasvindas {
+    float: left;
+    left: 10vh;
+    top: 8vh;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .everyone {
+    position: relative;
+    margin-left: 9px;
+    top: 8vh;
+    left: -9vh;
+  }
+
+  .facepic {
+    top: 11vh;
+    width: 30vh;
+  }
+
+  .bordao1 {
+    float: right;
+    top: 5vh;
+    right: 30vh;
+  }
+
+  .luizgouveia {
+    margin-left: -10px;
+    float: right;
+    top: 11vh;
+    right: 0vh;
+    font-size: 88px;
+    display: -webkit-box;
+    margin-right: 2px;
+    width: 321px;
+  }
+
+  .bordao2 {
+    float: left;
+    width: 50vh;
+    top: 3vh;
+    left: 3vh;
+    display: -webkit-box;
+  }
+
+  .bordao3 {
+    float: left;
+    top: 5vh;
+    left: 4vh;
+    width: 49vh;
+    display: -webkit-box;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+
+  .texto {
+    font-size: 18px;
+    line-height: 2;
+    text-align: none;
+    border-radius: none;
+    margin: 3px 56px 4px;
+  }
+
+  .divisaotexto {
+    padding: 6vh 7vh;
+    border-radius: 80px;
+    margin: -10px auto 2px;
+  }
+
+
+}
+
+@media (min-width: 960px) {
+h1 {
+  color: aqua;
+}
+
+.luizgouveia {
+  width: 349px;
+  right: 5vh;
+}
+
+.bordao1 {
+  right: 36vh;
+}
+
+.facepic {
+  width: 32vh;
+}
+}
+
+
+@media (min-width: 1024px) {
+  .icons {
+    max-width: 3%;
+    top: 45px;
+  }  
+
+  .luizgouveia {
+    width: 407px;
+    right: 4vh;
+    font-size: 110px;
+  }
+
+  .bordao2 {
+width: 52vh;
+  }
+
+  .bordao3 {
+width: 54vh;
+  }
+
+.facepic {
+  width: 33vh;
+}
+
+}
+
+@media (min-width: 1108px) {
+  .facepic {
+    right: -35vh;
+    width: 35vh;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .icons {
+    max-width: 3%;
+    top: 0px;
+  }  
+}
+
+@media (min-width: 1400px) {
+  .icons {
+    max-width: 3%;
+    top: 0px;
+  }  
+}
+
+
+/*
   .icons {
     width: 6%;
     top: -26px;
@@ -345,7 +526,7 @@ body {
 }
 
 /*Medium devices (iphones and samsung)*/
-@media (min-width: 720px) {
+/* @media (min-width: 720px) {
   .luizgouveia {
     font-size: 90px;
   }
@@ -382,8 +563,9 @@ body {
     height: 9%;
     width: 100.2%;
     /* left: -1px;*/
-  }
 
+
+  /*
   .icons {
     position: relative;
     width: 3.6%;
@@ -401,7 +583,7 @@ body {
     top: 125px;
     float: right;
     /* right: -11%;*/
-  }
+  /*}
 
   h3 {
     font-size: 91px;
@@ -439,9 +621,9 @@ body {
     /* text-align: center; */
     /* padding: 0px; */
     /* margin: 0px; */
-    z-index: 3;
+    /*z-index: 3;
     /* width: 4%; */
-    float: right;
+    /*float: right;
   }
 
   .boasvindas {
@@ -509,7 +691,7 @@ body {
     padding-left: 20px;
     position: relative;
     /* left: 65px;*/
-  }
+ /* }
 
   .whatsapp {
     width: 8%;
@@ -545,14 +727,14 @@ body {
   }
 }
 
-/*Medium devices (760px)*/
+/*Medium devices (760px)
 @media (min-width: 760px) {
   .facepic {
     left: 437px;
   }
 }
 
-/*Medium devices (Ipad Air 820px)*/
+/*Medium devices (Ipad Air 820px)
 @media (min-width: 820px) {
   .facepic {
     left: 469px;
@@ -563,7 +745,7 @@ body {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up) 
 @media (min-width: 960px) {
   .menu {
     width: 102.5%;
@@ -691,7 +873,7 @@ body {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up)
 
 @media (min-width: 1200px) {
   .menu {
