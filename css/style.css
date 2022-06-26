@@ -176,6 +176,7 @@ body {
     top: -6vh;
     font-weight: 100;
     filter: drop-shadow(2px 5px 3px black);
+    z-index: 2;
   }
 
   .bordao2 {
