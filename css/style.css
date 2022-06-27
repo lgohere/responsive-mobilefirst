@@ -35,7 +35,6 @@ body {
 .container1 {
   text-align: center;
   padding-bottom: 20px;
-
 }
 
 .container2 {
@@ -49,7 +48,11 @@ body {
   height: fit-content;
 }
 
-.container4 {
+.leftcontainer,
+.rightcontainer {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .box {
@@ -69,236 +72,237 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-
 /*----------------*/
 
 /*----- MENU-----*/
 
-  .menu {
-    position: sticky;
-    z-index: 4;
-    height: fit-content;
-    top: 0px;
-    filter: drop-shadow(0px -4px 10px black);
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    background-color: #00021d;
-    text-align: center;
-    border-top: 0.1vh solid #6D4108;
-    border-bottom: 0.1vh solid #6d410a;
-    max-height: 5vh;
-    background-image: url(../img/background2-3.jpeg);
-    background-size: cover;
-  }
+.menu {
+  position: sticky;
+  z-index: 4;
+  height: fit-content;
+  top: 0px;
+  filter: drop-shadow(0px -4px 10px black);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #00021d;
+  text-align: center;
+  border-top: 0.1vh solid #6d4108;
+  border-bottom: 0.1vh solid #6d410a;
+  max-height: 5vh;
+  background-image: url(../img/background2-3.jpeg);
+  background-size: cover;
+}
 
-  .caixa {
-    background-color: #ffffff24;
-    width: 100%;
-    margin: 0 auto;
-  }
+.caixa {
+  background-color: #ffffff24;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .icons {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 7%;
-    padding: 0 29px;
-    position: relative;
-    top: 3px;
-  }
-
-/*------------------------------*/
-
-  /*----- WELCOME-----*/
-
-  .boasvindas {
-    text-align: center;
-    position: relative;
-  }
-
-  h1 {
-    font-size: 56px;
-    font-family: Headson;
-    font-weight: normal;
-    position: relative;
-    z-index: 3;
-    color: #fbfbfb;
-    text-shadow: 0.04em 0.06em 0.04em hsl(231deg 100% 4%);
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
-  }
-
-  w {
-    font-size: 85px;
-  }
-
-  e {
-    font-size: 69px;
-  }
-
-  .everyone {
-    position: relative;
-    margin-left: 9px;
-  }
-
-  h2 {
-    font-size: 30px;
-    line-height: 1;
-    filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
-    position: relative;
-    color: white;
-    filter: drop-shadow(0px 0px 1px #33220e);
-    text-shadow: 0.05em 0.04em 0.06em #130a00;
-    z-index: 2;
-    background: none;
-    font-family: HelloJucky;
-    position: relative;
-    padding: 15px 15px;
-    top: -4vh;
-    font-weight: 100;
-  }
-
-  .bordao1 {
-    font-size: 27px;
-    position: relative;
-  }
-
-  .luizgouveia {
-    font-size: 94px;
-    text-shadow: 1px 2px 0px #000000;
-    color: rgb(255 215 157);
-    font-family: HighSpirited;
-    word-spacing: -15pt;
-    position: relative;
-    right: 2px;
-    margin-right: auto;
-    margin-left: auto;
-    top: -6vh;
-    font-weight: 100;
-    filter: drop-shadow(2px 5px 3px black);
-    z-index: 2;
-    height: fit-content;
-  }
-
-  .bordao2 {
-    position: relative;
-    max-width: 70vh;
-    margin: 0 auto;
-  }
-
-  .bordao3 {
-    position: relative;
-    color: #de996d;
-    font-weight: 100;
-    max-width: 70vh;
-    margin: 0 auto;
-  }
+.icons {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 7%;
+  padding: 0 29px;
+  position: relative;
+  top: 3px;
+}
 
 /*------------------------------*/
 
+/*----- WELCOME-----*/
+
+.boasvindas {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 56px;
+  font-family: Headson;
+  font-weight: normal;
+  position: relative;
+  z-index: 3;
+  color: #fbfbfb;
+  text-shadow: 0.04em 0.06em 0.04em hsl(231deg 100% 4%);
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+
+w {
+  font-size: 85px;
+}
+
+e {
+  font-size: 69px;
+}
+
+.everyone {
+  position: relative;
+  margin-left: 9px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+  filter: drop-shadow 1px -1px 15px rgb(24, 20, 1);
+  position: relative;
+  color: white;
+  filter: drop-shadow(0px 0px 1px #33220e);
+  text-shadow: 0.05em 0.04em 0.06em #130a00;
+  z-index: 2;
+  background: none;
+  font-family: HelloJucky;
+  position: relative;
+  padding: 15px 15px;
+  top: -4vh;
+  font-weight: 100;
+}
+
+.bordao1 {
+  font-size: 27px;
+  position: relative;
+}
+
+.luizgouveia {
+  font-size: 94px;
+  text-shadow: 1px 2px 0px #000000;
+  color: rgb(255 215 157);
+  font-family: HighSpirited;
+  word-spacing: -15pt;
+  position: relative;
+  right: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  top: -6vh;
+  font-weight: 100;
+  filter: drop-shadow(2px 5px 3px black);
+  z-index: 2;
+  height: fit-content;
+}
+
+.bordao2 {
+  position: relative;
+  max-width: 70vh;
+  margin: 0 auto;
+}
+
+.bordao3 {
+  position: relative;
+  color: #de996d;
+  font-weight: 100;
+  max-width: 70vh;
+  margin: 0 auto;
+}
+
+/*------------------------------*/
 
 /*-----Whatsapp-----*/
 
-  .whatsapp {
-    position: fixed;
-    right: 3%;
-    bottom: 3%;
-    z-index: 5;
-    width: 9.1%;
-  }
+.whatsapp {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  z-index: 5;
+  width: 9.1%;
+}
 
 /*----- FOTOPERFIL-----*/
 
-  .facepic {
-    position: relative;
-    filter: drop-shadow(0px 0px 11px black);
-  }
-  
- /*-----------------------*/
+.facepic {
+  position: relative;
+  filter: drop-shadow(0px 0px 11px black);
+}
 
+/*-----------------------*/
 
-  /*-----FUNDO-----*/
+/*-----FUNDO-----*/
 
-  .raio {
-    position: fixed;
-    width: 160%;
-    top: -12vh;
-    left: -12vh;
-    transform: rotate(170deg);
-    z-index: -1;
-    max-width: 115vh;
-    max-height: 185vh;
-  }
+.raio {
+  position: fixed;
+  width: 160%;
+  top: -12vh;
+  left: -12vh;
+  transform: rotate(170deg);
+  z-index: -1;
+  max-width: 115vh;
+  max-height: 185vh;
+}
 
-  .cave {
-    position: relative;
-    filter: drop-shadow(0px 25px 6px black);
-    z-index: 2;
-    background-color: black;
-    top: 1vh;
-  }
+.cave {
+  position: relative;
+  filter: drop-shadow(0px 25px 6px black);
+  z-index: 2;
+  background-color: black;
+  top: 1vh;
+  height: 7px;
+}
 
-  /*-----TOPICOS E TEXTO-----*/
+/*-----TOPICOS E TEXTO-----*/
 
-  .topico {
-    text-align: center;
-    padding: 10vh;
-    /* background-color: #00010a; */
-    filter: drop-shadow(0px 1px 5px black);  
-  }
-  
-  p {
-    font-size: 36px;
-  }
+.topico {
+  text-align: center;
+  padding: 10vh;
+  /* background-color: #00010a; */
+  filter: drop-shadow(0px 1px 5px black);
+}
 
-  h3 {
-    text-align: center;
-    font-size: 24px;
-    font-family: Dorado_Headline;
-    color: goldenrod;
-    font-weight: bold;
-    text-shadow: 1px 2px #0021ff;
-  }
+p {
+  font-size: 36px;
+}
 
-  .texto {
-    color: #f6ff6b;
-    /* position: relative; */
-    font-size: 17px;
-    line-height: 2;
-    text-align: justify;
-    text-shadow: 2.2px 2px 1px #001ff5;
-    font-family: Tenby_five;
-    letter-spacing: 0.9px;
-    border-radius: 40px;
-    margin: 3px 8px 4px;
-    padding: 20px 3px;
-  }
+h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Dorado_Headline;
+  color: goldenrod;
+  font-weight: bold;
+  text-shadow: 1px 2px #0021ff;
+}
 
-  .divisaotexto {
-    border: 0.01px solid #b18934;
-    padding: 5vh 2vh;
-    border-radius: 40px;
-    background-color: #00010aed;
-    position: relative;
-    filter: drop-shadow(1px 1px 7px #4a2d14);
-  }
+.texto {
+  color: #f6ff6b;
+  /* position: relative; */
+  font-size: 17px;
+  line-height: 2;
+  text-align: justify;
+  text-shadow: 2.2px 2px 1px #001ff5;
+  font-family: Tenby_five;
+  letter-spacing: 0.9px;
+  border-radius: 40px;
+  margin: 3px 8px 4px;
+  padding: 20px 3px;
+}
 
-  .fundotexto {
-    padding: 2vh 1vh 2vh;
-  }
+.divisaotexto {
+  border: 0.01px solid #b18934;
+  padding: 5vh 2vh;
+  border-radius: 40px;
+  background-color: #00010aed;
+  position: relative;
+  filter: drop-shadow(1px 1px 7px #4a2d14);
+}
 
+.fundotexto {
+  padding: 2vh 1vh 2vh;
+}
 
 @media (min-width: 540px) {
   .icons {
-    max-width: 5%;
-  }  
+    max-width: 4%;
+  }
+
+  .facepic {
+    width: 25vh;
+  }
 }
 
 @media (min-width: 720px) {
   .icons {
-    max-width: 3%;
+    max-width: 2.8%;
     top: 2px;
-  }  
+  }
 
   .facepic {
     width: 27vh;
@@ -314,89 +318,125 @@ body {
 }
 
 @media (min-width: 820px) {
-
-body {
-   background-image: url(../img/img-backgrounds/gold.jpg);;
-}
-
-.container1 {
-  min-height: 60vh;
-  height: fit-content;
-}
-
-  .raio {
-    width: 125%;
-    top: -20vh;
-    left: -15vh;
+  body {
+    background-image: url(../img/img-backgrounds/gold.jpg);
   }
 
-  .icons {
-    float: right;
-    max-width: 3%;
-    top: 50px;
-    position: relative;
-  }  
-
-  .menu {
-    height: 3vh;
+  .container1,
+  .facepic {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
   }
 
   .boasvindas {
-    float: left;
-    left: 10vh;
-    top: 8vh;
-    margin: 0 auto;
+    display: block;
+    visibility: visible;
+    opacity: 100%;
   }
 
-  h1 {
-    font-size: 80px;
+  /*------ CONTAINER-DIVISAO-----*/
+
+  .box2 {
+    height: 85vh;
+  }
+
+  /*-----LEFT-CONTAINER-----*/
+
+  .leftcontainer {
+    display: inline-block;
+    /*background-color: #0021ff;*/
+    visibility: visible;
+    opacity: 100%;
+    width: 50%;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    vertical-align: bottom;
+    float: left;
+  }
+
+  .boasvindas {
+    top: 9vh;
+  }
+
+  h4 {
+    font-size: 56px;
+    font-family: Headson;
+    font-weight: normal;
+    position: relative;
+    z-index: 3;
+    color: #fbfbfb;
+    text-shadow: 0.04em 0.06em 0.04em hsl(231deg 100% 4%);
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    left: 10vh;
+    font-size: 76px;
+  }
+
+  w {
+    font-size: 100px;
+  }
+
+  e {
+    font-size: 76px;
   }
 
   .everyone {
-    position: relative;
-    margin-left: 9px;
-    top: 8vh;
-    left: -9vh;
-  }
-
-  .facepic {
-    top: 11vh;
-    width: 30vh;
-  }
-
-  .bordao1 {
-    float: right;
-    top: 5vh;
-    right: 30vh;
-  }
-
-  .luizgouveia {
-    margin-left: -10px;
-    float: right;
-    top: 11vh;
-    right: 0vh;
-    font-size: 88px;
-    display: -webkit-box;
-    margin-right: 2px;
-    width: 321px;
+    font-size: 70px;
+    top: 9vh;
+    left: -7vh;
   }
 
   .bordao2 {
-    float: left;
-    width: 50vh;
-    top: 3vh;
-    left: 3vh;
-    display: -webkit-box;
+    top: 20vh;
+    font-size: 35px;
+    position: relative;
+    left: 2vh;
   }
 
   .bordao3 {
-    float: left;
-    top: 5vh;
-    left: 4vh;
-    width: 49vh;
-    display: -webkit-box;
-    font-size: 28px;
+    top: 22vh;
+    font-size: 31px;
+    position: relative;
+    left: 2vh;
   }
+
+  /*-----RIGHT-CONTAINER-----*/
+
+  .rightcontainer {
+    display: inline-block;
+    /*background-color: #b18934;*/
+    visibility: visible;
+    opacity: 100%;
+    float: right;
+    width: 47%;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .facepic2 {
+    width: 40vh;
+    top: 10vh;
+    position: relative;
+    filter: drop-shadow(2px 3px 7px black);
+    right: 3vh;
+  }
+
+  .bordao1 {
+    top: 5vh;
+    right: 4vh;
+    font-size: 35px;
+  }
+
+  .luizgouveia {
+    font-size: 95px;
+    top: 3vh;
+    right: 2vh;
+  }
+
+  /*----------*/
 
   h3 {
     font-size: 27px;
@@ -415,660 +455,66 @@ body {
     border-radius: 80px;
     margin: -10px auto 2px;
   }
-
-
 }
 
 @media (min-width: 960px) {
-h1 {
-  color: aqua;
-}
-
-.luizgouveia {
-  width: 349px;
-  right: 5vh;
-}
-
-.bordao1 {
-  right: 36vh;
-}
-
-.facepic {
-  width: 32vh;
-}
-}
-
-
-@media (min-width: 1024px) {
-  .icons {
-    max-width: 3%;
-    top: 45px;
-  }  
-
-  .luizgouveia {
-    width: 407px;
-    right: 4vh;
-    font-size: 110px;
-  }
-
   .bordao2 {
-width: 52vh;
+    font-size: 40px;
+    width: 90%;
   }
 
   .bordao3 {
-width: 54vh;
+    font-size: 35px;
+    width: 90%;
   }
 
-.facepic {
-  width: 33vh;
-}
-
-}
-
-@media (min-width: 1108px) {
-  .facepic {
-    right: -35vh;
-    width: 35vh;
+  h4 {
+    font-size: 85px;
   }
 
+  .everyone {
+    font-size: 75px;
+  }
+
+  .luizgouveia {
+    font-size: 115px;
+  }
 }
 
 @media (min-width: 1200px) {
-  .icons {
-    max-width: 3%;
-    top: 0px;
-  }  
-}
-
-@media (min-width: 1400px) {
-  .icons {
-    max-width: 3%;
-    top: 0px;
-  }  
-}
-
-
-/*
-  .icons {
-    width: 6%;
-    top: -26px;
-    left: 45px;
+  .boasvindas {
+    left: 1vh;
   }
 
-  .topicos {
-    top: -1600px;
-  }
-
-  .divisaotexto {
-    top: -1600px;
+  .facepic2 {
+    right: 2vh;
   }
 
   .bordao1 {
-    top: -5px;
-    left: 37%;
-  }
-
-  .luizgouveia {
-    top: -50px;
+    right: 4vh;
   }
 
   .bordao2 {
-    font-size: 34px;
-    top: 125px;
-    width: 80%;
-    left: 10%;
+    font-size: 46px;
+    left: 5vh;
   }
 
   .bordao3 {
-    width: 80%;
-    left: 10%;
-    font-size: 27px;
-    top: 227px;
-  }
-}
-
-/*Medium devices (iphones and samsung)*/
-/* @media (min-width: 720px) {
-  .luizgouveia {
-    font-size: 90px;
+    font-size: 40px;
+    width: 85%;
+    left: 3vh;
   }
 
-  body {
-    background-image: url(../img/img-backgrounds/gold.jpg);
-    background-size: 102%;
-  }
-
-  .menu {
-    position: absolute;
-    position: -webkit-sticky;
-    z-index: 4;
-    display: block;
-    margin-top: 0px;
-    height: 55px;
-    top: -9px;
-    filter: drop-shadow(1px 9px 15px black);
-    width: 104.5%;
-    left: -8px;
-  }
-
-  .bordamenu {
-    z-index: 1;
-    top: 0px;
-    position: absolute;
-  }
-
-  .bordamenu2 {
-    filter: drop-shadow(1px 3px 0 black);
-    top: 49px;
-    position: absolute;
-    z-index: 1;
-    height: 9%;
-    width: 100.2%;
-    /* left: -1px;*/
-
-
-  /*
-  .icons {
-    position: relative;
-    width: 3.6%;
-    top: 63px;
-    padding-left: 0px;
-    float: right;
-  }
-
-  .facepic {
-    position: absolute;
-    filter: drop-shadow(2px 10px 7px black);
-    display: inline-block;
-    left: 402px;
-    width: 35%;
-    top: 125px;
-    float: right;
-    /* right: -11%;*/
-  /*}
-
-  h3 {
-    font-size: 91px;
-    left: 45px;
-    text-shadow: 0.01em 0.03em 0em hsl(231deg 78% 5%);
-    float: left;
-    display: inline-block;
-  }
-
-  w {
-    font-size: 110px;
-  }
-
-  e {
+  h4 {
     font-size: 95px;
   }
 
   .everyone {
-    margin-left: 9px;
-    position: relative;
-    top: 48px;
-    left: -100px;
-    font-size: 80px;
+    font-size: 85px;
   }
 
   .luizgouveia {
-    font-size: 93px;
-    text-shadow: 0.01em 0.013em 0em #ffffff;
-    color: rgb(85 33 0);
-    font-family: HighSpirited;
-    word-spacing: -15pt;
-    position: relative;
-    right: -25%;
-    top: -46px;
-    /* text-align: center; */
-    /* padding: 0px; */
-    /* margin: 0px; */
-    /*z-index: 3;
-    /* width: 4%; */
-    /*float: right;
-  }
-
-  .boasvindas {
-    margin: 0px auto;
-    margin-bottom: -70px;
-    text-align: center;
-    height: 10%;
-    background: none;
-    position: relative;
-    top: 46px;
-  }
-
-  .welcome {
-    text-shadow: 0.05em 0.04em 0.06em black;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-family: HelloJucky;
-    position: absolute;
-    display: flex;
-    top: 335px;
-    width: 100%;
-  }
-
-  .bordao1 {
-    left: 64%;
-    top: -15px;
-    position: absolute;
-  }
-
-  .bordao2 {
-    top: -20.8%;
-    left: 13px;
-    width: 51%;
-    font-size: 28px;
-  }
-
-  .bordao3 {
-    font-size: 26px;
-    right: 51%;
-    width: 45%;
-    top: 8%;
-    color: #de996d;
-  }
-
-  .topicos {
-    text-shadow: 0.12em 0em 0em rgb(255 94 0);
-    padding: 15px;
-    border: none;
-    top: -1178px;
-    width: 100%;
-    left: -7px;
-  }
-
-  .divisaotopicos {
-    border-radius: 40px;
-    background-color: rgb(0 3 19 / 80%);
-    margin: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 3px;
-    padding-top: 2px;
-    width: 83%;
-    padding-right: 20px;
-    padding-left: 20px;
-    position: relative;
-    /* left: 65px;*/
- /* }
-
-  .whatsapp {
-    width: 8%;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  .divisaotexto {
-    width: 103.4%;
-    top: -1282px;
-    padding-top: 18%;
-    padding-bottom: 15%;
-    margin-bottom: -172px;
-  }
-
-  .raio {
-    position: fixed;
-    width: 80%;
-    top: -181px;
-    left: 35px;
-    transform: rotate(-14deg);
-  }
-
-  .margintexto {
-    position: relative;
-    font-size: 24px;
-    text-align: center;
-    line-height: 2;
-    margin-left: 130px0px;
-    text-shadow: 1px 0.8px 0em #a15100;
-  }
-}
-
-/*Medium devices (760px)
-@media (min-width: 760px) {
-  .facepic {
-    left: 437px;
-  }
-}
-
-/*Medium devices (Ipad Air 820px)
-@media (min-width: 820px) {
-  .facepic {
-    left: 469px;
-  }
-
-  .icons {
-    left: -40px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) 
-@media (min-width: 960px) {
-  .menu {
-    width: 102.5%;
-    left: 0px;
-  }
-
-  .bordamenu2 {
-    width: 100%;
-  }
-
-  .icons {
-    width: 3.3%;
-    top: 67px;
-    left: -46px;
-  }
-
-  .facepic {
-    left: 541px;
-  }
-
-  .divisaotexto {
-    top: -1215px;
-  }
-
-  .welcome {
-    top: 400px;
-  }
-
-  .topicos {
-    top: -1103px;
-    padding: 30px;
-    width: 96.9%;
-  }
-
-  h3 {
-    font-size: 100px;
-    left: 89px;
-  }
-
-  .everyone {
-    top: 57px;
-  }
-
-  .bordao1 {
-    font-size: 34px;
-    top: -24px;
-  }
-
-  .bordao2 {
-    top: -31.8%;
-    font-size: 33px;
-  }
-
-  .bordao3 {
-    font-size: 31px;
-    right: 49%;
-  }
-
-  .divisaotexto {
-    width: 102.5%;
-    padding-top: 12%;
-  }
-
-  .divisaotopicos {
-    background-color: rgb(0 3 19 / 96%);
-    padding-bottom: 30px;
-    padding-top: 30px;
-    width: 90%;
-    border: 0.5px solid #8e5312;
-  }
-
-  .whatsapp {
-    width: 5.5%;
-    right: 4%;
-    bottom: 4%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .facepic {
-    left: 607px;
-    width: 31%;
-    top: 139px;
-  }
-
-  .menu {
-    width: 102.1%;
-  }
-
-  h3 {
-    left: 125px;
-  }
-
-  .everyone {
-    left: -20px;
-  }
-
-  .bordao1 {
-    top: -14px;
-    left: 67%;
-  }
-
-  .bordao2 {
-    top: -34.8%;
-    font-size: 38px;
-    left: 25px;
-  }
-
-  .bordao3 {
-    font-size: 32px;
-  }
-
-  .luizgouveia {
-    top: -47px;
-    right: -24.1%;
-    font-size: 108px;
-  }
-
-  .divisaotexto {
-    width: 102.1%;
-  }
-
-  .whatsapp {
-    width: 4.5%;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-
-@media (min-width: 1200px) {
-  .menu {
-    width: 101.5%;
-  }
-
-  .bordamenu {
-    top: -1;
-  }
-
-  .fundo {
-    width: 88%;
-    top: -307px;
-    left: -45px;
-  }
-
-  h3 {
-    font-size: 127px;
-    left: 93px;
-    top: -57px;
-  }
-
-  w {
-    font-size: 145px;
-  }
-
-  e {
-    font-size: 113px;
-  }
-
-  .everyone {
-    font-size: 110px;
-    top: 89px;
-    left: -93px;
-  }
-
-  .facepic {
-    left: 705px;
-    top: 150px;
-    width: 32%;
-  }
-
-  .luizgouveia {
-    top: 12px;
-    font-size: 139px;
-    right: -24%;
-  }
-
-  .bordao1 {
-    font-size: 43px;
-    top: 33px;
-    right: 338px;
-  }
-
-  .bordao2 {
-    top: -3%;
-    font-size: 48px;
-    left: 3%;
-  }
-
-  .bordao3 {
-    font-size: 39px;
-    right: 49%;
-    top: 33%;
-    width: 47%;
-  }
-
-  .topicos {
-    top: -935px;
-  }
-
-  .divisaotexto {
-    top: -1065px;
-    width: 101.3%;
-  }
-}
-
-@media (min-width: 1240px) {
-  h3 {
-    left: 126px;
-  }
-
-  .everyone {
-    left: -60px;
-  }
-
-  .bordao1 {
-    font-size: 43px;
-    top: 45px;
-    right: 338px;
-  }
-
-  .bordao2 {
-    top: -3%;
-    font-size: 48px;
-    left: 5%;
-  }
-
-  .bordao3 {
-    font-size: 39px;
-    right: 47%;
-    top: 33%;
-    width: 47%;
-  }
-
-  .luizgouveia {
-    top: -16px;
-    font-size: 139px;
-    right: -25%;
-  }
-
-  .facepic {
-    left: 730px;
-    width: 32%;
-  }
-}
-
-@media (min-width: 1320px) {
-  .facepic {
-    left: 800px;
-    width: 28%;
-    top: 170px;
-  }
-
-  .bordao1 {
-    right: 379px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .facepic {
-    left: 846px;
-    top: 146px;
-  }
-
-  .menu {
-    width: 101%;
-  }
-
-  .bordao1 {
-    right: 410px;
-  }
-
-  .icons {
-    width: 2.5%;
-  }
-
-  .whatsapp {
-    width: 4%;
-  }
-
-  .divisaotexto {
-    width: 101.1%;
-  }
-
-  .topicos {
-    filter: drop-shadow(4px -26px 60px black);
-    width: 97.2%;
-  }
-}
-
-@media (min-width: 1499px) {
-  .facepic {
-    left: 921px;
-    top: 146px;
-  }
-
-  h3 {
-    left: 182px;
-  }
-
-  .everyone {
-    left: 8px;
-  }
-
-  .bordao1 {
-    top: 73px;
-  }
-
-  .bordao2 {
-    top: 0%;
-    font-size: 53px;
-    left: 3%;
-    width: 50%;
-  }
-
-  .bordao3 {
-    font-size: 43px;
-    top: 38%;
-    width: 41%;
-  }
-
-  .luizgouveia {
-    top: 14px;
+    font-size: 130px;
+    right: 3vh;
   }
 }
