@@ -25,6 +25,10 @@
   src: url(../fonts/HELLOJUCKY.otf) format("opentype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*-----CONTAINERS-E-CORESDEFUNDO-----*/
 body {
   position: absolute;
@@ -48,7 +52,12 @@ body {
   height: fit-content;
 }
 
-.leftcontainer,
+.leftcontainer {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
 .rightcontainer {
   display: none;
   visibility: hidden;
@@ -130,11 +139,11 @@ h1 {
   display: inline-block;
 }
 
-w {
+.ft-xlarge {
   font-size: 85px;
 }
 
-e {
+.ft-large {
   font-size: 69px;
 }
 
@@ -375,11 +384,11 @@ h3 {
     font-size: 76px;
   }
 
-  w {
+  .ft-xlarge {
     font-size: 100px;
   }
 
-  e {
+  .ft-large {
     font-size: 76px;
   }
 
