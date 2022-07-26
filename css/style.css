@@ -184,6 +184,7 @@ h2 {
   right: 2px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 1rem;
   top: -6vh;
   font-weight: 100;
   filter: drop-shadow(2px 5px 3px black);
